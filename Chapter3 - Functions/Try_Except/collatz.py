@@ -29,9 +29,11 @@ def collatz(n):
     
     return
 
-try:
-    n = int(input('Enter a number: '))
-    print(n)
-    collatz(n)
-except ValueError:
-    print('The number must be an integer.')
+n = ''
+while type(n) != int:  # Input loop
+    try: # Check input
+        n = int(input('Enter a number: '))
+        print(n)
+        collatz(n) # Call function collatz()
+    except ValueError:
+        print('The number must be an integer!')
