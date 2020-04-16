@@ -29,11 +29,11 @@ def collatz(n):
     
     return
 
-n = ''
-while type(n) != int:  # Input loop
+while True:  # Input loop
     try: # Check input
         n = int(input('Enter a number: '))
         print(n)
         collatz(n) # Call function collatz()
+        break
     except ValueError:
         print('The number must be an integer!')

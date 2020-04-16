@@ -1,5 +1,9 @@
-spam = [0, 1, 2, 3, 4, 5]
-cheese = spam
-cheese[1] = 'Hello'
-spam
-print(spam)
+n = 8
+space = ' '
+sharp = '#'
+
+for i in range(n):
+    print(space*(n-i), end='') # Spaces before hash
+    print(sharp*(i+1) + space*2, end='') # Hashes + space
+    print(sharp*(i+1), end='') # Opposite pyramid
+    print('') # New line

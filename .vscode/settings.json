@@ -1,7 +1,8 @@
 {
     "cSpell.ignoreWords": [
         "collatz",
-        "dividebyzero"
+        "dividebyzero",
+        "nflips"
     ],
     "python.pythonPath": "C:\\Users\\Marcos\\AppData\\Local\\Programs\\Python\\Python38\\python.exe"
 }
